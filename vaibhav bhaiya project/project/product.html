@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Product</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Dashboard</a>
+  <a href="product.html">Product</a>
+  <a href="customer.html">Customer</a>
+  <a href="details.html">Details</a>
+</nav>
+
+<h2>Add Product</h2>
+
+<input id="p_name" placeholder="Name">
+<input id="p_weight" placeholder="Weight">
+<input id="p_rate" placeholder="Rate">
+<input id="p_making" placeholder="Making Charges">
+
+<button onclick="addProduct()">Add</button>
+
+<ul id="productList"></ul>
+
+<script src="script.js"></script>
+<script>loadProducts();</script>
+
+</body>
+</html>

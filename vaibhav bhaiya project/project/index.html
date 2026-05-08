@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Dashboard</a>
+  <a href="product.html">Product</a>
+  <a href="customer.html">Customer</a>
+  <a href="details.html">Details</a>
+</nav>
+
+<h2>Dashboard</h2>
+
+<div class="card">Total Interest: ₹<span id="d_interest"></span></div>
+<div class="card">Payable Amount: ₹<span id="d_payable"></span></div>
+<div class="card">Outstanding: ₹<span id="d_out"></span></div>
+
+<script src="script.js"></script>
+<script>loadDashboard();</script>
+
+</body>
+</html>
